@@ -26,7 +26,7 @@ public class PrimeNumber {
    while ((r== true) && (i<n1)){
     r =((n1%i)!=0); 
     i++;
-    return true;
+    return r;
      }    
     }
    return false;
